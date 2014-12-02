@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <title>Contact Anthon Davenport</title>
-        <meta name="description" content="Davenport Web Design">
-        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
-        <meta name="author" content="AnthonDavenport">
-        <link href="/CSS/stylesheet.css"  type="text/css" rel="stylesheet" media="screen">
+         <?php include $_SERVER['DOCUMENT_ROOT'].'/modules/head.php';?>
+        <title>Contact</title>
     </head>
     <body>
         <div id="wrapper"> <!--Entire body wrapper-->

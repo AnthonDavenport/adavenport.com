@@ -140,6 +140,9 @@ nav ul ul ul li:hover  {
 #content img  {
     width: 1024px;
 }
+a {
+    text-decoration: none;
+}
 a:link	{ color:#FFF; }
 a:visited  { color:#FFF; }
 a:active  { color:#FFF; }
@@ -157,12 +160,12 @@ a:focus  { color:#00BFFF; }
 }
 #media_boxes ul  {
     margin:3px;
-    text-align:left;
     padding-left:30px;
+    text-align:left;
 }
 #media_boxes li  {
-    list-style-type:none;
     display:inline-block;
+    list-style-type:none;
 }
 #media_boxes ul li{
     margin:2px;
@@ -174,40 +177,53 @@ a:focus  { color:#00BFFF; }
     height:120px;
 }
 #blog_snapshot  {
-    float:right;
     color:#FFF;
+    float:right;
     margin-right: 32px;
 }
 #blog_snapshot a img  {
     width:300px;
 }
 #page_footer  { 
-    float: left;
     background-color:#00BFFF;
     width:1024px;
     height:120px;
+    float: left;
 }
 .footer_info  { 
+    padding:4px; 
     color:#FFF;
     font-family:Arial, Helvetica, sans-serif;
     font-size:10px;
     text-align:center;
-    padding:4px; 
 }
-#hire_me_button  {
-    font-family:Arial, Helvetica, sans-serif;
-    background-color:#00BFFF; 	
-    font-size:10px;
-    text-align:center;
+#hire_me_button {
+    background-color:#696969;
+    width: 20%;
+    margin:auto;
     padding:4px;
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:36px;
+    text-align:center;
+}
+#hire_me_button:hover {
+    background-color: #FFFFFF;
+}
+#hire_me_button a {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:36px;
+}
+#hire_me_button a:hover {
+    color: #696969;
 }
 #social_links ul  {
-    text-align:right;
     padding-right:30px;
+    text-align:right;
 }
 #social_links li  {
-    list-style-type:none;
     display:inline-block;
+    list-style-type:none;
 }
 #social_links ul li  {
     padding:5px;
@@ -216,8 +232,13 @@ a:focus  { color:#00BFFF; }
     width:30px;
     height:30px;
 }
-#assessment  {
+#assessment {
+    text-decoration: none;
     text-align: center;
+}
+#assessment a {
+    padding: 0 5px 0 5px;
+    font-size:20px;
 }
 			
 			

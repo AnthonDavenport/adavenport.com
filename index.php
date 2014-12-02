@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <title>Davenport Web Design</title>
-        <meta name="description" content="Davenport Web Design">
-        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
-        <meta name="author" content="AnthonDavenport">
-        <link href="CSS/stylesheet.css"  type="text/css" rel="stylesheet" media="screen">
+        <?php include $_SERVER['DOCUMENT_ROOT'].'/modules/head.php';?>
+        <title>Home</title>
     </head>
     <body>
         <div id="wrapper"> <!--Entire body wrapper-->
@@ -54,7 +50,6 @@
                     <li><a href="/pages/recent-work.php"><img src="/images/media_boxes/AnthonDavenportP5Logos.jpg" alt="The image represents my most recent design work."></a><p>Recent Work</p></li>
                 </ul>
             </div>
-                
             <footer id="page_footer"> <!--Page footer-->
                 <?php include $_SERVER['DOCUMENT_ROOT'].'/modules/footer.php'; ?>
                 <div id="assessment"> <!--links to the assignments for CIT 230-->
