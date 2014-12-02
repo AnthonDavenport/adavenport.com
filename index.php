@@ -35,9 +35,55 @@
                 </nav>
             </header>
             <div id="content"> <!--The face of the page.  Big Beautiful images to showcase my work.-->
-                <img src="/images/Leading.jpg" alt="The main image on the screen is a picture of my dog Otis.  He is a black and white Schnuazer-Collie mix.">
+                <!--<img src="/images/Leading.jpg" alt="The main image on the screen is a picture of my dog Otis.  He is a black and white Schnuazer-Collie mix.">
                     <h1>"Recent Work"</h1>
-                    <p>Site Currently Under Construction</p>
+                    <p>Site Currently Under Construction</p>-->
+             
+                
+                <div class="clear"></div>
+                
+                <div class="fluid_container"> 
+    	
+        <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
+            <div data-thumb="/images/Leading.jpg" data-src="/images/Leading.jpg">
+                <div class="camera_caption moveFromLeft">
+                    Camera is a responsive/adaptive slideshow. <em>Try to resize the browser window</em>
+                </div>
+            </div>
+            <div data-thumb="/images/Leading.jpg" data-src="/images/Leading.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    It uses a light version of jQuery mobile, <em>navigate the slides by swiping with your fingers</em>
+                </div>
+            </div>
+            <div data-thumb="/images/Leading.jpg" data-src="/images/Leading.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    <em>It's completely free</em> (even if a donation is appreciated)
+                </div>
+            </div>
+            <div data-thumb="/images/Leading.jpg" data-src="/images/Leading.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Camera slideshow provides many options <em>to customize your project</em> as more as possible
+                </div>
+            </div>
+            <div data-thumb="/images/Leading.jpg" data-src="/images/Leading.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    It supports captions, HTML elements and videos and <em>it's validated in HTML5</em> (<a href="http://validator.w3.org/check?uri=http%3A%2F%2Fwww.pixedelic.com%2Fplugins%2Fcamera%2F&amp;charset=%28detect+automatically%29&amp;doctype=Inline&amp;group=0&amp;user-agent=W3C_Validator%2F1.2" target="_blank">have a look</a>)
+                </div>
+            </div>
+            <div data-thumb="/images/Leading.jpg" data-src="/images/Leading.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Different color skins and layouts available, <em>fullscreen ready too</em>
+                </div>
+            </div>
+        </div><!-- #camera_wrap_1 -->
+                </div> 
+                
+                <div class="clear"></div>
+                
+                
+                
+                
+                
             </div>
             <div id="blog_snapshot"> <!--Blog image link-->
                 <h3>My Blog</h3>

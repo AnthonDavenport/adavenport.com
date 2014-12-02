@@ -12,4 +12,28 @@
                     </ul>
                 </div>
                 <script src="/javascript/analytics.js"></script> <!--Google Analytics tracking code-->
+                 
+                  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+                  <script type='text/javascript' src='/javascript/jquery.easing.1.3.js'></script> 
+                  <script type='text/javascript' src='/javascript/camera.js'></script>
+                  <script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+                  <script type="text/javascript" src='/javascript/custom.js' ></script>
+                  
+
+			 <script>
+		jQuery(function(){
+			
+			jQuery('#camera_wrap_1').camera({
+				height: '400px',
+				loader: 'bar',
+				pagination: false,
+				thumbnails: false
+			});
+		});
+	</script>
+ 
+
+                  
+ 
+                 
                 
